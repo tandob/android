@@ -10,7 +10,7 @@
            fetch=".."
            review="review.cyanogenmod.org" />
            
-  <remote  name="github"
+  <remote  name="tandob"
            fetch="https://github.com/tandob/" />
 
   <remote  name="private"
