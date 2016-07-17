@@ -13,7 +13,7 @@
   <remote  name="tandob"
            fetch="https://github.com/tandob/" />
            
-  <remote  name="tandob"
+  <remote  name="tandob-mtk"
            fetch="https://github.com/tandob-mtk/" />
 
   <remote  name="private"
