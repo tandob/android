@@ -86,7 +86,7 @@
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" groups="pdk" />
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jarjar" name="CyanogenMod/android_external_jarjar" groups="pdk" />
-  <project path="external/jpeg" name="tandob-mtk/android_external_jpeg-mtk" groups="pdk" />
+  <project path="external/jpeg" name="tandob-mtk/android_external_jpeg_mtk" groups="pdk" />
   <project path="external/json-c" name="CyanogenMod/android_external_json-c" />
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
@@ -147,7 +147,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
-  <project path="frameworks/av" name="tandob-mtk/android_frameworks_av-mtk" groups="pdk" />
+  <project path="frameworks/av" name="tandob-mtk/android_frameworks_av_mtk" groups="pdk" />
   <project path="frameworks/base" name="tandob/android_frameworks_base-mtk" groups="pdk-cw-fs,pdk-fs" revision="cm-13.0-mt6592" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
