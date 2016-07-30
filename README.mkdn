@@ -35,7 +35,7 @@ To initialize your local repository using the CyanogenMod trees, use a command l
 
 Then to sync up:
 
-    repo sync -j1 --force-sync -f
+    repo sync -j1 -f --force-sync --no-clone-bundle
     
     source build/envsetup.sh
     
