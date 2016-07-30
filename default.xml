@@ -22,13 +22,13 @@
   <default revision="refs/heads/cm-13.0"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="2" />
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="tandob/android-mtk" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -528,6 +528,5 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
-  <project path="device/Micromax/E313" name="tandob/android_device_Micromax_E313" revision="cm-13.0" />
-  <project path="vendor/Micromax/E313" name="tandob/android_vendor_Micromax_E313" revision="cm-13.0" />
+  <project path="device/kingzone/k1_turbo" name="tandob/android_device_kingzone_k1_turbo" revision="cm-13.0" />
 </manifest>
