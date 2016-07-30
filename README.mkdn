@@ -31,11 +31,15 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+    repo init -u git://github.com/tandob/android-mtk.git -b cm-13.0
 
 Then to sync up:
 
-    repo sync
+    repo sync -j1 --force-sync -f
+    
+    source build/envsetup.sh
+    
+    brunch cm_k1_turbo-userdebug
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
